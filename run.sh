@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run my-notebook
+docker-compose up --build

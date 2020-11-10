@@ -3,6 +3,6 @@ services:
   my-notebook:
     ports:
       - 9999:9999 # ports to open in container for jupyter notebook
-    volumes:
-      - /path/on/host:/path/in/container
     build: . # location of Dockerfile
+    # volumes:
+    #   - /path/on/host:/path/in/container
