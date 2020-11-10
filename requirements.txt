@@ -1,0 +1,4 @@
+# some common packages for example
+notebook==6.1.1
+pandas==1.1.1
+numpy==1.19.1
